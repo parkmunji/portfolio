@@ -88,5 +88,7 @@ button {cursor: pointer;font-family: 'NIXGONM-Vb';font-size: 18px;line-height: 1
 .cnt04 .app_wrap button img {margin-bottom: 10px;}
 
 /* Graphic */
-.cnt05 {background: pink;}
+.cnt05 {text-align: center;}
+.cnt05 ul {display: inline-block;}
+.cnt05 li {float: left;margin-right: 20px;}
 
