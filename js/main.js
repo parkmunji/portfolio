@@ -36,8 +36,8 @@ var scroll = function(){
                 $('.cnt02 .ai .skill_bar .bar').stop().animate({'width':'24px'},900)
                 a = 0;
             }
-        })
-    });
+        }) // scroll
+    }); //ready
     
     var init = function(){
         $cnt = $(".content");
