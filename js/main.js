@@ -19,7 +19,7 @@ var scroll = function(){
         var cntTop = $('.cnt02').offset().top;
 
         $(window).scroll(function() {
-            if(a == 0 && $('html, body').scrollTop() == cntTop ) {
+            if(a == 0 && $('html, body').scrollTop() <= cntTop ) {
                 $('.cnt02 .html .skill_bar .bar').stop().animate({'width':'230px'},700)
                 $('.cnt02 .css .skill_bar .bar').stop().animate({'width':'220px'},700)
                 $('.cnt02 .js .skill_bar .bar').stop().animate({'width':'200px'},700)

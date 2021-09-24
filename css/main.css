@@ -23,27 +23,35 @@
     font-style: normal;
 }
 
-/* scroll */
-.header{position:fixed;z-index:10;top:0;width:100%}
-.header ul:after{content:"";display:block;clear:both}
-.header ul li{float:left;border-left:1px solid rgba(255, 255, 255, 0);box-sizing:border-box;width:20%}
-.header ul li:first-child{border-left:none}
-.header ul li a{display:block;height:60px;text-align:center;line-height:60px;font-size:20px;text-decoration:none;background-color:#000;color:#fff}
-.header ul li.on a{background-color:#fff;color:#000}
-.content{}
-.cnt{position:relative}
-.cnt .container {position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);text-align:center;width:100%;}
-
 
 /* common */
 body {background: #ecf0f3;overflow-y:hidden;font-family: 'NIXGONM-Vb';line-height: 1.2em;}
 button {cursor: pointer;font-family: 'NIXGONM-Vb';font-size: 18px;line-height: 1.2em;}
 .clrfix:after {content: "";display: block;clear: both;}
 
+
+
+/* scroll */
+.header{position:fixed;z-index:10;top:0;left:0;right: 0;padding: 10px 5%;}
+.header h1 a {display: block;width: 100px;height: 42px;background: url(../img/logo.png);float: left;margin-top: 9px;}
+.header ul {float: right;}
+.header ul li{float:left;margin-right: 60px;}
+.header ul li:last-child {margin-right: 0;}
+.header ul li a{display:block;height:60px;text-align:center;line-height:60px;font-size:20px;text-decoration:none;}
+.header ul li.on a{color: #4374ff;}
+.content{}
+.cnt{position:relative}
+.cnt .container {position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);text-align:center;width:100%;}
+
+
+
 /* main */
 .content {text-align: center;font-family: 'NIXGONM-Vb';font-size: 18px;line-height: 1.2em;}
+.cnt01 .container {width: auto;}
 .content .cnt01 h1 {font-size: 30px;font-family: 'NIXGONM-Vb';margin-top: 30px;}
-
+.content .cnt01 img {display: block;margin-bottom: 30px;}
+.content .cnt01 .typing {text-align: center;}
+.content .cnt01 .typing {display: inline-block;}
 
 /* profile */
 .cnt02 .profile_bg {background: url(../img/profile_bg.png) no-repeat;width: 1200px;height: 700px;margin: auto;}
