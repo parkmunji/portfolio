@@ -21,7 +21,6 @@
           <li><a href="#">Profile</a></li>
           <li><a href="#">Web</a></li>
           <li><a href="#">App</a></li>
-          <li><a href="#">Graphic</a></li>
       </ul>
   </div>
   <main>
@@ -39,7 +38,7 @@
           <div class="profile_bg clrfix">
             <div class="profile1 clrfix">
               <img src="img/profile_photo.png" alt="프로필사진">
-              <dl>
+              <dl class="pc">
                 <dt>Name</dt>
                 <dd>박문지</dd>
                 <dt>Age</dt>
@@ -51,17 +50,35 @@
               </dl>
               <div class="skills">
                 <ul class="clrfix">
-                  <li class="html"><p>Html</p><div class="skill_bar"><div class="bar"></div></div></li>
-                  <li class="css"><p>CSS</p><div class="skill_bar"><div class="bar"></div></div></li>
-                  <li class="js"><p>JS</p><div class="skill_bar"><div class="bar"></div></div></li>
-                  <li class="ps"><p>Ps</p><div class="skill_bar"><div class="bar"></div></div></li>
-                  <li class="ai"><p>Ai</p><div class="skill_bar"><div class="bar"></div></div></li>
+                  <li class="html"><p>Html</p><div class="skill_bar"><div class="bar pc"></div></div></li>
+                  <li class="css"><p>CSS</p><div class="skill_bar"><div class="bar pc"></div></div></li>
+                  <li class="js"><p>JS</p><div class="skill_bar"><div class="bar pc"></div></div></li>
+                  <li class="ps"><p>Ps</p><div class="skill_bar"><div class="bar pc"></div></div></li>
+                  <li class="ai"><p>Ai</p><div class="skill_bar"><div class="bar pc"></div></div></li>
                 </ul>
               </div>
             </div>
             <div class="profile2">
+               <div class="tab_profile_btns tab">
+                  <button class="btn_prof">프로필</button>
+                  <button class="btn_edu">학력 및 경력</button>
+                  <button class="btn_licen">자격증</button>
+               </div>
+               <div class="tab pro_txt profile">
+                  <h2 class="pc">프로필</h2>
+                  <dl>
+                     <dt>Name</dt>
+                     <dd>박문지</dd>
+                     <dt>Age</dt>
+                     <dd>98.06.20</dd>
+                     <dt>Address</dt>
+                     <dd>서울시 관악구</dd>
+                     <dt>E-Mail</dt>
+                     <dd>qkranswl@naver.com</dd>
+                   </dl>
+               </div>
               <div class="pro_txt education">
-                <h2>학력 및 경력</h2>
+                <h2 class="pc">학력 및 경력</h2>
                 <ul>
                   <li>17.03 ~ 20.02 경인여자대학교(패션문화디자인과) 졸업</li>
                   <li>19.11 ~ 20.12 의류 프로모션 업체 종사</li>
@@ -69,7 +86,7 @@
                 </ul>
               </div><!-- .pro_txt end -->
               <div class="pro_txt license">
-                <h2>자격증</h2>
+                <h2 class="pc">자격증</h2>
                 <ul>
                   <li>GTQ 1급</li>
                   <li>컴퓨터패션디자인운용마스터</li>
@@ -77,6 +94,7 @@
                   <li>자동자 운전면허 2종 보통</li>
                 </ul>
               </div>
+              
             </div><!-- profile2 end -->
           </div><!-- profile_bg end -->
         </div><!-- container end -->
@@ -85,39 +103,33 @@
         <div class="container">
           <div class="web_folder">
             <button><img src="img/web_folder.png" alt=""><p>한화기념관<br>미리보기</p></button>
-            <button><img src="img/web_folder.png" alt=""><p>리뉴얼 사이트2<br>미리보기</p></button>
-            <button><img src="img/web_folder.png" alt=""><p>리뉴얼 사이트3<br>미리보기</p></button>
+            <button><img src="img/web_folder.png" alt=""><p>준비중</p></button>
+            <button><img src="img/web_folder.png" alt=""><p>준비중</p></button>
           </div>
           <div class="web_pc">
-            <a class="btn_1" href="https://parkmunji.github.io/web-project/" target="_blank">한화기념관 리뉴얼 바로가기</a>
-            <a class="btn_2" href="#">리뉴얼2 바로가기</a>
-            <a class="btn_3" href="#">리뉴얼3 바로가기</a>
+            <a class="link_1" href="https://parkmunji.github.io/web-project/" target="_blank">한화기념관 바로가기</a>
+            <a class="link_2" href="#">준비중</a>
+            <a class="link_3" href="#">준비중</a>
           </div>
           <div class="web_mo"></div>
         </div>
       </div>
       <div class="cnt cnt04">
-        <div class="container">
-          <div class="app_wrap">
-            <h2>App Design</h2>
-            <div class="app_btns">
-              <a href="img/WAhome_view.jpg" data-lightbox="App"><img src="img/WAhome_icon.png" alt=""><p>위아홈 보기</p></a>
+          <div class="container">
+            <div class="app_wrap">
+               <h2>App Design</h2>
+               <div class="app_btns">
+                  <div class="wah">
+                     <a href="img/WAhome_view.jpg" data-lightbox="App"><img src="img/WAhome_icon.png" alt=""><p>위아홈 보기</p></a>
+                  </div>
+                  <div class="camp">
+                     <a href="img/camp_view.jpg" data-lightbox="App"><img src="img/camp_icon.png" alt=""><p>캠핑프렌즈 보기</p></a>
+                  </div>
+               </div><!-- .app_btns end -->
             </div>
           </div><!-- app_wrap end -->
-        </div><!-- container end-->
       </div><!-- cnt04 end -->
-      <div class="cnt cnt05 graphic">
-        <div class="container">
-          <div class="graphic">
-            <ul class="clrfix">
-               <li><img src="img/graphic.png" alt=""></li>
-               <li><img src="img/graphic.png" alt=""></li>
-               <li><img src="img/graphic.png" alt=""></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+    </div><!-- .content end-->
   </main>
 </body>
 </html>

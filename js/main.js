@@ -37,6 +37,26 @@ var scroll = function(){
                 a = 0;
             }
         }) // scroll
+
+        
+      $('.profile2 .btn_prof').click(function() {
+         $('.cnt02 .profile2').css('background','url(../img/tablet/profile_1.png)')
+         $('.cnt02 .profile2 .profile').css('display','block')
+         $('.cnt02 .profile2 .education').css('display','none')
+         $('.cnt02 .profile2 .license').css('display','none')
+      })
+      $('.profile2 .btn_edu').click(function() {
+         $('.cnt02 .profile2').css('background','url(../img/tablet/profile_2.png)')
+         $('.cnt02 .profile2 .profile').css('display','none')
+         $('.cnt02 .profile2 .education').css('display','block')
+         $('.cnt02 .profile2 .license').css('display','none')
+      })
+      $('.profile2 .btn_licen').click(function() {
+         $('.cnt02 .profile2').css('background','url(../img/tablet/profile_3.png)')
+         $('.cnt02 .profile2 .profile').css('display','none')
+         $('.cnt02 .profile2 .education').css('display','none')
+         $('.cnt02 .profile2 .license').css('display','block')
+      })
     }); //ready
     
     var init = function(){

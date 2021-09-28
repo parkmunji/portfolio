@@ -67,7 +67,8 @@ button {cursor: pointer;font-family: 'NIXGONM-Vb';font-size: 18px;line-height: 1
 .cnt02 .pro_txt ul {padding-left: 50px;line-height: 2em;}
 .cnt02 .education {margin-bottom: 30px;}
 .cnt02 .license {}
-.cnt02 .skills {clear: both;margin-top: 25px;font-family: 'NIXGONB-Vb';}
+
+.cnt02 .skills {margin-top: 25px;font-family: 'NIXGONB-Vb';}
 .cnt02 .skills li {margin-bottom: 15px;height: 41px;}
 .cnt02 .skills li p {display: block;width: 50px;height: 41px;float: left;margin: 10px 0 0 15px;}
 .cnt02 .skills .skill_bar {display: block;background: url(../img/profile_skill.png);width: 286px;height: 36px;float: right;}
@@ -82,10 +83,11 @@ button {cursor: pointer;font-family: 'NIXGONM-Vb';font-size: 18px;line-height: 1
 .cnt03 .web_folder button img {margin-bottom: 15px;}
 .cnt03 .web_folder button:last-child {margin-bottom: 0;}
 .cnt03 .web_pc {float: left;background: url(../img/web_1.png);width: 773px;height: 577px;position: relative;}
-.cnt03 .web_pc .btn_1 {position: absolute;top: 40px;left: 45px;font-size: 18px;}
-.cnt03 .web_pc .btn_2 {position: absolute;top: 40px;left: 320px;font-size: 18px;}
-.cnt03 .web_pc .btn_3 {position: absolute;top: 40px;left: 560px;font-size: 18px;}
-.cnt03 .web_mo {float: right;background: url(../img/web_mo.png);width: 180px;height: 350px;margin-top: 140px;}
+.cnt03 .web_pc a {position: absolute;top: 40px;font-size: 18px;}
+.cnt03 .web_pc .link_1 {left: 70px;}
+.cnt03 .web_pc .link_2 {left: 320px;}
+.cnt03 .web_pc .link_3 {left: 600px;}
+.cnt03 .web_mo {float: left;background: url(../img/web_mo.png);width: 180px;height: 350px;margin: 215px 0 0 10px;}
 
 
 /* app */
@@ -93,10 +95,61 @@ button {cursor: pointer;font-family: 'NIXGONM-Vb';font-size: 18px;line-height: 1
 .cnt04 .app_wrap {background: url(../img/app_pad.png);width: 1000px;height: 650px;display: inline-block;position: relative;}
 .cnt04 .app_wrap h2 {margin-top: 100px;font-size: 24px;font-family: 'NIXGONB-Vb';}
 .cnt04 .app_wrap .app_btns {position: absolute;top: 180px;left: 320px;}
+.cnt04 .app_wrap .app_btns div {float: left;margin-right: 20px;}
 .cnt04 .app_wrap button img {margin-bottom: 10px;}
 
-/* Graphic */
-.cnt05 {text-align: center;}
-.cnt05 ul {display: inline-block;}
-.cnt05 li {float: left;margin-right: 20px;}
 
+
+@media screen and (min-width: 1194px) {
+   .tab {display: none;}
+}
+
+@media screen and (max-width: 1193px) {
+   .pc {display: none !important;}
+   .cnt02 .profile_bg {background: none;width: auto;height: auto;}
+   .cnt02 .profile1 {background: url(../img/tablet/skill.png) no-repeat;width: 616px;height: 266px;margin: auto;float: none;padding: 0;margin-bottom: 50px;}
+   .cnt02 .profile1 img {float: left;width: 160px;height: 160px;margin: 65px 60px 0 60px;}
+   .cnt02 .skills {margin-top: 70px;float: left;width: auto;height: auto;}
+   .cnt02 .skills li {display: block;margin-bottom: 0;height: 20px;margin-bottom: 15px;}
+   .cnt02 .skills li p {width: auto;height: auto;float: left;margin: 2px 10px 0 0;}
+   .cnt02 .skills .skill_bar {width: 186px;height: 23px;float: right;}
+   .cnt02 .skills .html .skill_bar {background: url(../img/tablet/html_skill.png);}
+   .cnt02 .skills .css .skill_bar {background: url(../img/tablet/css_skill.png);}
+   .cnt02 .skills .js .skill_bar {background: url(../img/tablet/js_skill.png);}
+   .cnt02 .skills .ps .skill_bar {background: url(../img/tablet/ps_skill.png);}
+   .cnt02 .skills .ai .skill_bar {background: url(../img/tablet/ai_skill.png);}
+
+
+   .cnt02 .profile2 {position: relative;float: none;padding: 0;background: url(../img/tablet/profile_1.png);width: 616px;height: 246px;margin: auto;}
+   .cnt02 .tab_profile_btns {position: absolute;top: 27px;left: 50%;transform: translateX(-50%);width: 600px;padding-left: 150px;}
+   .cnt02 .tab_profile_btns button {float: left;margin-right: 130px;}
+   .cnt02 .tab_profile_btns button:last-child {margin-right: 0;}
+   .cnt02 .pro_txt {position: absolute;top: 60px;left: 50%;transform: translateX(-50%); background: none;}
+   .cnt02 .profile2 .profile {}
+   .cnt02 .profile2 .profile dl {padding: 20px 60px;width: 600px;line-height: 1.8em;}
+   .cnt02 .profile2 .profile dt {float: left;width: 150px;font-weight: bold;}
+   .cnt02 .profile2 .profile dd {float: left;width: 450px;}
+   .cnt02 .profile2 .education {display: none;}
+   .cnt02 .profile2 .education ul {padding: 20px 60px;}
+   .cnt02 .profile2 .license {display: none;}
+   .cnt02 .profile2 .license ul {padding: 10px 60px;}
+
+
+   .cnt03 {position: relative;}
+   .cnt03 .container {width: 650px;height: 550px;}
+   .cnt03 .web_folder {float: none;margin: 0;position: absolute;bottom: 0;left: 50%;transform: translateX(-50%);width: 500px;}
+   .cnt03 .web_folder button {margin-bottom: 0;float: left;margin-right: 80px;}
+   .cnt03 .web_folder button:last-child {margin-right: 0;}
+   .cnt03 .web_folder button img {margin-bottom: 15px;}
+   .cnt03 .web_pc {float: left;background: url(../img/tablet/web_pc.png);width: 505px;height: 376px;}
+   .cnt03 .web_pc a {top: 30px;font-size: 16px;}
+   .cnt03 .web_pc .link_1 {left: 40px;}
+   .cnt03 .web_pc .link_2 {left: 200px;}
+   .cnt03 .web_pc .link_3 {left: 400px;}
+   .cnt03 .web_mo {background: url(../img/tablet/web_mo.png);width: 119px;height: 225px;margin: 0;}
+
+}
+
+@media screen and (min-width: 700px) {
+   
+}
