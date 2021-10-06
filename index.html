@@ -17,20 +17,18 @@
   <div class="header">
      <h1><a href="#cnt01"></a></h1>
       <ul>
-          <li class="on" class="a"><a href="#">Main</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Web</a></li>
-          <li><a href="#">App</a></li>
+          <li class="on" class="a"><a href="#">M<span class="mo_blind">ain</span></a></li>
+          <li><a href="#">P<span class="mo_blind">rofile</span></a></li>
+          <li><a href="#">W<span class="mo_blind">eb</span></a></li>
+          <li><a href="#">A<span class="mo_blind">pp</span></a></li>
       </ul>
   </div>
   <main>
     <div class="content">
       <div class="cnt cnt01">
         <div class="container">
-          <img src="img/main_folder_icon.png" alt="">
-          <div class="typing">
-            <img src="img/typing.gif" alt="">
-          </div>
+          <div class="main_bg"></div>
+          <div class="typing"></div>
         </div>
       </div>
       <div class="cnt cnt02">
@@ -59,11 +57,16 @@
               </div>
             </div>
             <div class="profile2">
-               <div class="tab_profile_btns tab">
+               <div class="tab_profile_btns tab mo_blind">
                   <button class="btn_prof">프로필</button>
                   <button class="btn_edu">학력 및 경력</button>
                   <button class="btn_licen">자격증</button>
                </div>
+               <div class="tab_profile_btns mo">
+                <button class="btn_prof">프로필</button>
+                <button class="btn_edu">학력 및 경력</button>
+                <button class="btn_licen">자격증</button>
+             </div>
                <div class="tab pro_txt profile">
                   <h2 class="pc">프로필</h2>
                   <dl>
@@ -80,9 +83,9 @@
               <div class="pro_txt education">
                 <h2 class="pc">학력 및 경력</h2>
                 <ul>
-                  <li>17.03 ~ 20.02 경인여자대학교(패션문화디자인과) 졸업</li>
-                  <li>19.11 ~ 20.12 의류 프로모션 업체 종사</li>
-                  <li>19.01 ~ 19.02 신발 프로모션 업체 인턴</li>
+                  <li><strong>17.03 ~ 20.02</strong> 경인여자대학교<br class="mo">(패션문화디자인과) 졸업</li>
+                  <li><strong>19.11 ~ 20.12</strong> 의류 프로모션 업체 종사</li>
+                  <li><strong>19.01 ~ 19.02</strong> 신발 프로모션 업체 인턴</li>
                 </ul>
               </div><!-- .pro_txt end -->
               <div class="pro_txt license">
@@ -102,28 +105,67 @@
       <div class="cnt cnt03">
         <div class="container">
           <div class="web_folder">
-            <button><img src="img/web_folder.png" alt=""><p>한화기념관<br>미리보기</p></button>
-            <button><img src="img/web_folder.png" alt=""><p>준비중</p></button>
-            <button><img src="img/web_folder.png" alt=""><p>준비중</p></button>
+            <div class="pc">
+              <button class="view_1"><img src="img/web_folder.png" alt=""><p>한화기념관<br>미리보기</p></button>
+              <button class="view_2"><img src="img/web_folder.png" alt=""><p>코카콜라 음료<br>미리보기</p></button>
+              <button class="view_3"><img src="img/web_folder.png" alt=""><p>준비중</p></button>
+            </div>
+            <div class="tab mo_blind clrfix">
+              <button class="view_1"><img src="img/web_folder.png" alt=""><p>한화기념관<br>미리보기</p></button>
+              <button class="view_2"><img src="img/web_folder.png" alt=""><p>코카콜라 음료<br>미리보기</p></button>
+              <button class="view_3"><img src="img/web_folder.png" alt=""><p>준비중</p></button>
+            </div>
+            <div class="mo clrfix">
+              <button class="view_1"><img src="img/web_folder.png" alt=""><p>한화기념관<br>미리보기</p></button>
+              <button class="view_2"><img src="img/web_folder.png" alt=""><p>코카콜라 음료<br>미리보기</p></button>
+              <button class="view_3"><img src="img/web_folder.png" alt=""><p>준비중</p></button>
+            </div>
           </div>
-          <div class="web_pc">
-            <a class="link_1" href="https://parkmunji.github.io/web-project/" target="_blank">한화기념관 바로가기</a>
-            <a class="link_2" href="#">준비중</a>
-            <a class="link_3" href="#">준비중</a>
+          <div class="web_pc clrfix">
+            <a href="https://parkmunji.github.io/web-project/" target="_blank">한화기념관 바로가기</a>
+            <a href="https://parkmunji.github.io/cocacola/" target="_blank">코카콜라 음료 바로가기</a>
+            <a href="#">준비중</a>
           </div>
           <div class="web_mo"></div>
+          <div class="mo_web_bg mo">
+            <a class="web_1" href="https://parkmunji.github.io/web-project/" target="_blank"><span>한화기념관 바로가기</span></a>
+            <a class="web_2" href="https://parkmunji.github.io/cocacola/" target="_blank"><span>코카콜라 음료 바로가기</span></a>
+            <a class="web_3" href="#"><span>준비중</span></a>
+          </div>
         </div>
       </div>
       <div class="cnt cnt04">
           <div class="container">
             <div class="app_wrap">
                <h2>App Design</h2>
-               <div class="app_btns">
+               <div class="app_btns clrfix">
                   <div class="wah">
-                     <a href="img/WAhome_view.jpg" data-lightbox="App"><img src="img/WAhome_icon.png" alt=""><p>위아홈 보기</p></a>
+                    <a class="pc" href="img/WAhome_view.jpg" data-lightbox="App">
+                      <img src="img/WAhome_icon.png" alt="">
+                      <p>위아홈 <br class="tab_br"><span class="mo_blind">보기</span></p>
+                    </a>
+                    <a class="tab mo_blind" href="img/tablet/WAhome_view.jpg" data-lightbox="App">
+                      <img src="img/WAhome_icon.png" alt="">
+                      <p>위아홈 <br class="tab_br"><span class="mo_blind">보기</span></p>
+                    </a>
+                    <a class="mo" href="img/mobile/WAhome_view.jpg" data-lightbox="App">
+                      <img src="img/WAhome_icon.png" alt="">
+                      <p>위아홈 <br class="tab_br"><span class="mo_blind">보기</span></p>
+                    </a>
                   </div>
                   <div class="camp">
-                     <a href="img/camp_view.jpg" data-lightbox="App"><img src="img/camp_icon.png" alt=""><p>캠핑프렌즈 보기</p></a>
+                    <a class="pc" href="img/camp_view.jpg" data-lightbox="App">
+                      <img src="img/camp_icon.png" alt="">
+                      <p>캠핑프렌즈 <br class="tab_br"><span class="mo_blind">보기</span></p>
+                    </a>
+                    <a class="tab mo_blind" href="img/tablet/camp_view.jpg" data-lightbox="App">
+                      <img src="img/camp_icon.png" alt="">
+                      <p>캠핑프렌즈 <br class="tab_br"><span class="mo_blind">보기</span></p>
+                    </a>
+                    <a class="mo" href="img/mobile/camp_view.jpg" data-lightbox="App">
+                      <img src="img/camp_icon.png" alt="">
+                      <p>캠핑프렌즈 <br class="tab_br"><span class="mo_blind">보기</span></p>
+                    </a>
                   </div>
                </div><!-- .app_btns end -->
             </div>

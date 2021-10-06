@@ -46,11 +46,11 @@
     fadeDuration: 600,
     fitImagesInViewport: false,
     imageFadeDuration: 600,
-    // maxWidth: 800,
+    maxWidth: 1100,
     // maxHeight: 600,
     positionFromTop: 50,
     resizeDuration: 700,
-    showImageNumberLabel: true,
+    showImageNumberLabel: false,
     wrapAround: false,
     disableScrolling: true,
     /*
