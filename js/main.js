@@ -14,7 +14,6 @@ var scroll = function(){
 
         $("html, body").stop().animate({'scrollTop' : 0})
         
-        // scrolltop이 profile(.cnt02)에 왔을때 애니메이션 실행
         var a = 0;
         var cntTop = $('.cnt02').offset().top;
 
